@@ -110,6 +110,7 @@ if choiceinlist in numberlist:
         d6 = d5.replace("☾✪", "<")
         # PRINT END STRING
         print(red+"Encrypted String: "+d5+green)
+        time.sleep(10)
         exit()
 
     elif choiceinlist == "2":
@@ -165,6 +166,7 @@ if choiceinlist in numberlist:
         s26 = s25.replace("↜", "z")
         # PRINT END STRING
         print(red+"Decrypted String: "+s26+green)
+        time.sleep(10)
         exit()
 
     elif choiceinlist == "3":
